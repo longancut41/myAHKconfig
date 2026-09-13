@@ -5,9 +5,9 @@ SetMouseDelay 0
 global check := 1
 
 LButton::{
-    Send "{LButton}"
-    Send "{LButton}"
-    Send "{LButton}"
+    SendEvent "{LButton}"
+    SendEvent "{LButton}"
+    SendEvent "{LButton}"    
 }
 
 
