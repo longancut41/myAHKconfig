@@ -43,6 +43,10 @@ if shutdown_result = "Yes"
     Run "wt"
 }
 
+^+!t::{
+    Run "C:\Program Files\WezTerm\wezterm-gui.exe"
+}
+
 ; Kill Forcused Window
 Except_Windows := ['', 'Program Manager', 'Command Palette', 'Search']
 
